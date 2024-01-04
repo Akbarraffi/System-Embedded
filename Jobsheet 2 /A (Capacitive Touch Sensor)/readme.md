@@ -1,4 +1,4 @@
-# ESP32 Capacitive Touch Senso
+# ESP32 Capacitive Touch Sensor
 Melakukan ujicoba kontrol LED pada ESP32 menggunakan input berupa sentuhan. Terdapat 5 percobaan yang dilakukan, diantaranya:
 
 ## 1. Membaca data input yang berupa sentuhan
