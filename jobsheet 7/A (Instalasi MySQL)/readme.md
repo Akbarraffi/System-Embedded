@@ -1,4 +1,4 @@
-# Instalasi MySQLl
+# Instalasi MySQL
 ### Alat dan Bahan
 
 Software :
