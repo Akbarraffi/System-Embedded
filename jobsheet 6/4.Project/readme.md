@@ -1,4 +1,4 @@
-# Project Jobsheet 
+# Project Jobsheet 6
 Hal-hal yang harus dilakukan:
 - Mengembangkan flow program yang telah dibuat agar ketika terdapat input nilai metane > 5, maka akan ditampilkan pada log atau debug node “Warning”. Jika input metane <=5, tampilkan data pada debug node “Save”.
 - Menyimpan data output flow program ke dalam database mysql, serta mencatat waktu saat data tersimpan menggunakan tipe data timestamp
