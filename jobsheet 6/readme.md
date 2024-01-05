@@ -17,16 +17,16 @@ Keuntungan dari penggunaan protokol `MQTT` diantaranya:
 **3. Space, Time, dan Synchronization Decoupling** artinya Publisher dan subscriber tetap akan bekerja walaupun mereka tidak saling mengetahui letak atau keberadaan satu sama lain, karena adanya broker diantara publisher dan subscriber. Keduanya juga tetap akan bekerja walaupun mereka tidak saling terkoneksi, kalaupun ada data yang dikirimkan publisher saat `offline` maka data akan dikirimkan saat keduanya sudah terkoneksi `(online)`.
 
 Pada jobsheet ini terdapat beberapa percobaan, diantaranya:
-### A. Koneksi ke MQTT Broker
+### 1. Koneksi ke MQTT Broker
 
 Mempelajari bagaimana cara mengkoneksikan node-red ke mosquitto, yang merupakan `MQTT Broker` yang akan digunakan.
-### B. Menerima Data JSON Melalui Protokol MQTT
+### 2. Menerima Data JSON Melalui Protokol MQTT
 
 Melakukan ujicoba pengiriman data menggunakan protokol `MQTT`.
-### C. Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware
+### 3. Mengirim Dummy Data untuk Simulasi I/O Menggunakan Hardware
 
 Mensimulasikan windows sebagai `Publisher/Subsciber` dengan menggunakan software `MQTT Box`.
-### D. Project
+### 4. Project
 
 - Mengembangkan flow program yang telah dibuat agar ketika terdapat input nilai metane > 5, maka akan ditampilkan pada log atau debug node “Warning”. Jika input metane <=5, tampilkan data pada debug node “Save”.
 - Menyimpan data output flow program ke dalam database mysql, serta mencatat waktu saat data tersimpan menggunakan tipe data `timestamp`
